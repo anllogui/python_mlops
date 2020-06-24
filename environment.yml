@@ -1,0 +1,27 @@
+name: pythonCI
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - click
+  - Flask
+  - itsdangerous
+  - Jinja2
+  - MarkupSafe
+  - numpy
+  - pandas
+  - python-dateutil
+  - pytz
+  - scikit-learn
+  - scipy
+  - six
+  - Werkzeug
+  - pytest
+  - jupyter
+  - matplotlib
+  - seaborn
+  - papermill
+  - pip
+  - pip:
+    - mlflow
+    
